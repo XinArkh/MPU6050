@@ -10,7 +10,7 @@ ws['B1'] = '角速度'
 ws['C1'] = '角加速度'
 print('创建表格完毕！')
 print('读取数据...')
-f = open('步态数据6x.txt', 'r') # 读取txt文件，对其它文件的操作要手动更改文件名
+f = open('步态数据.txt', 'r') # 读取得到的txt文件
 print('读取数据完毕！')
 lines = f.readlines()
 count = 2 # 表格待写行数
@@ -31,5 +31,5 @@ for line in lines:
             pass
 print('写入数据完毕！')
 print('保存表格...')
-wb.save('步态数据6x.xlsx')
+wb.save('步态数据.xlsx')
 print('Done!')
