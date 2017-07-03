@@ -16,7 +16,7 @@ print("模块初始化完毕！")
 ser.flushInput()
 ser.flushOutput()
 
-os.remove('步态数据.txt')
+# os.remove('步态数据.txt')
 print("读取数据...")
 while True:
     f = open('步态数据.txt', 'a')
